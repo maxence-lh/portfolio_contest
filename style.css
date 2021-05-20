@@ -5,7 +5,8 @@ body{
 .pres{
     display: flexbox;
     left: 0px;
-    margin-left: 70%;
+    margin-left: 60%;
+    margin-right: 15%;
     margin-top: 15%;
     border-color: aliceblue;
     border-width: 10px;
@@ -36,7 +37,7 @@ body{
 
 .styled:hover {
     background-color: rgba(255, 0, 0, 1);
-    width : 150%;
+    width : 100%;
 }
 
 .styled:active {
