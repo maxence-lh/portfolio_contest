@@ -1,19 +1,27 @@
 body{
-    background-color: #566783;
+    background-color:#132c33;
 }
 
 .pres{
+    height: 200px;
     margin-left: 5%;
     margin-right: 65%;
     margin-top: 15%;
     text-align: center;
+    color: #d8e3e7;
+    background-color: #126e82;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#desc{
+    margin-top: 30px;
 }
 
 .project{
     display: flex;
     margin-left: 50%;
     margin-right: 20%;
-    margin-top: -15%;
+    margin-top: -10%;
 }
 
 @keyframes button{
@@ -36,7 +44,7 @@ body{
     padding: 0 20px;
     font-size: 1rem;
     text-align: center;
-    color: #fff;
+    color: #d8e3e7;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
     background-color: red;
@@ -52,8 +60,4 @@ body{
 
 .styled:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
-}
-
-.styled::after{
-    width: 100px;
 }
