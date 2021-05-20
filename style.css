@@ -18,8 +18,16 @@ body{
 }
 
 @keyframes button{
-    from{background-color:red}
-    to{background-color:blue}
+    0% {background-color:red;}
+    14.2% {background-color: orange;}
+    28.4% {background-color: yellow;}
+    42.6% {background-color: green;}
+    56.8%{background-color: blue;}
+    71%{background-color:indigo;} 
+    100%{background-color:red;}
+}
+@keyframes name{
+
 }
 
 .styled {
@@ -33,7 +41,7 @@ body{
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
     background-color: red;
-    animation: button 5s linear 1s infinite alternate;
+    animation: button 7s linear infinite;
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
     transition: width 2s;
 }
