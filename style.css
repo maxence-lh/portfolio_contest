@@ -4,19 +4,17 @@ body{
 
 .pres{
     display: flexbox;
-    left: 0px;
-    margin-left: 60%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 65%;
     margin-top: 15%;
-    border-color: aliceblue;
-    border-width: 10px;
+    text-align: center;
 }
 
 .project{
     display: flexbox;
-    margin-left: 30px;
-    margin-right: 75%;
-    margin-top: -15%;
+    margin-left: 50%;
+    margin-right: 20%;
+    margin-top: -7%;
 }
 
 @keyframes button{
