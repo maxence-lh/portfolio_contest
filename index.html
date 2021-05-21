@@ -8,28 +8,29 @@
 </head>
 
 <body>
-    <div class="pres">
-        <div id="name" style="text-align: center">
-            <h1>LHUILLIER <br> Maxence</h1>
+    <div class="container">
+        <div class="pres">
+            <div id="name" style="text-align: center">
+                <h1>LHUILLIER <br> Maxence</h1>
+            </div>
+            <div id="desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore odit, quaerat quas laboriosam consectetur voluptatibus dolorem magni, ipsum laudantium similique necessitatibus voluptate placeat nihil cumque et id enim, iusto fuga.
+            </div>
         </div>
-        <div id="desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore odit, quaerat quas laboriosam consectetur voluptatibus dolorem magni, ipsum laudantium similique necessitatibus voluptate placeat nihil cumque et id enim, iusto fuga.
-        </div>
+        <div class="project">
+            <button type="button" onclick="toggle_text('span_txt1');" class="styled">
+                Projet n°1 :<br>
+                <span id="span_txt1" style="display:none" class="desc_proj">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic sapiente voluptatum nisi excepturi eum dolor unde necessitatibus eos dicta accusantium quae accusamus quisquam nemo doloribus placeat quibusdam, eveniet officiis earum.
+                </span>
+            </button>
+            <button type="button" onclick="toggle_text('span_txt2');" class="styled">
+                Projet n°2 :<br>
+                <span id="span_txt2" style="display:none" class="desc_proj">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit architecto, distinctio rem illum fugit iure explicabo corrupti consectetur odit ipsa quia ratione commodi sit odio dignissimos, quisquam eum aliquam recusandae.
+                </span>
+            </button>
     </div>
-    <div class="project">
-        <button type="button" onclick="toggle_text('span_txt1');" class="styled">
-            Projet n°1 :<br>
-            <span id="span_txt1" style="display:none" class="desc_proj">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic sapiente voluptatum nisi excepturi eum dolor unde necessitatibus eos dicta accusantium quae accusamus quisquam nemo doloribus placeat quibusdam, eveniet officiis earum.
-            </span>
-        </button>
-        <button type="button" onclick="toggle_text('span_txt2');" class="styled">
-            Projet n°2 :<br>
-            <span id="span_txt2" style="display:none" class="desc_proj">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit architecto, distinctio rem illum fugit iure explicabo corrupti consectetur odit ipsa quia ratione commodi sit odio dignissimos, quisquam eum aliquam recusandae.
-            </span>
-        </button>
-
 <!-- Code en JavaScript pour afficher le description des projets -->
         <script>
             function toggle_text(id) {
